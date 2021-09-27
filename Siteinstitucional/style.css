@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 100px;
+    background-color: black;
+    border: 3px aquamarine solid;
+
+}
+.container{
+width: 80%;
+height: 100%;
+background-color: rgb(0, 0, 0);
+margin: auto;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navebar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+.header h1{
+    color: aquamarine;
+}
+.navebar li{
+    font-weight: lighter;
+    color: goldenrod;
+    
+}
+
+.navebar .active{
+    font-weight: bolder;
+    
+}
+
+.navebar li a{
+    text-decoration: none;
+    color: goldenrod;
+    
+
+}
