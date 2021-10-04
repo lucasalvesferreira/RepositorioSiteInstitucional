@@ -13,7 +13,6 @@
 .container{
 width: 80%;
 height: 100%;
-background-color: rgb(0, 0, 0);
 margin: auto;
 }
 
@@ -50,5 +49,123 @@ margin: auto;
     text-decoration: none;
     color: goldenrod;
     
+}
 
+.banner{
+    height: 500px;
+    background-image: url('https://images3.alphacoders.com/236/thumb-1920-236349.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg{
+    margin-right: 250px;
+    width: 10%;
+    color: white;
+    font-size: 30px;
+
+} 
+
+
+.msg span{
+    font-weight: bolder;
+}
+
+.proposito{
+    height: 450px;
+    background-color: rgb(214, 209, 214);
+}
+.proposito .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proposito .container .mvv div img{
+    height: 100px;
+    justify-content: center; 
+    width: 100px;
+}
+
+.proposito .container .mvv{
+    margin-top: 50px;
+    width: 100%;
+background-color: rgb(235, 222, 235);
+display: flex;
+justify-content: space-between;
+
+}
+.proposito .container h2{
+    background-color: white;
+    padding: 25px;
+    color: red;
+    border-radius: 25px;
+    display: flex;
+}
+
+.proposito .container .mvv div{
+display: flex;
+width: 25vw;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.proposito .container .mvv h3{
+    color: red;
+
+}
+
+.futer{
+    background-color: royalblue;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.futer p{
+
+color: white;
+}
+
+
+.form_login{
+    background-color: white;
+    width: 30%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.banner .form_login h2{
+    color: red;
+}
+
+.banner .form_login div{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .form_login div span{
+    color:red ;
+}
+.banner .form_login div input{
+    border-radius: 10px;
+    border: red 2px solid;
+    padding: 10px;
+}
+.banner .form_login button{
+    background-color: red;
+    color: white;
+    border: none ;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
